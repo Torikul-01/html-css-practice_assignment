@@ -155,3 +155,93 @@ nav ul li a {
 
 }
 
+/* Pricing section  */
+
+.pricing{
+    padding: 100px 0;
+}
+
+.pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+}
+
+.price-card{
+    background-color: white;
+    border-radius: 12px;
+    padding:35px;
+    box-shadow: 0 5px 20px rgba(0, 0,0, .08);
+
+}
+
+
+.price-card:hover{
+    transform: translate(-10);
+    box-shadow: 0 15px 35px rgba(0,0,0,.15);
+}
+
+.active{
+    background-color: #111827;
+    color: white;
+}
+
+.price-card h4{
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+  
+
+.price-card h3{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.price-text{
+color: #6b7280;
+margin-bottom: 20px;
+
+}
+.active .price-text{
+    color: #d1d5db;
+}
+
+
+.price-card hr{
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid #e5e7eb;
+}
+
+
+.price-card ul{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.price-card ul li{
+    margin-bottom: 15px;
+    color: #4b5563;
+}
+
+.active{
+    background-color: #111827;
+    color: white;
+}
+.outline-btn{
+    width: 100%;
+    padding: 14px;
+    background-color: white;
+    border: 2px solid #2563eb;
+    color: #2563eb;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.outline-btn:hover{
+    background-color: #2563eb;
+    color: white;
+}
+.common-btn{
+    width: 100%;
+}
