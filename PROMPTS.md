@@ -1,0 +1,1 @@
+Design a unique HTML and CSS section for a DevConf 2026 landing page.Keep the code beginner-friendly using only HTML and CSS.
